@@ -27,6 +27,6 @@ Windows Server 2022の検証環境を構築した記録です。
 
 | 学習内容 | 内容 | ドキュメント |
 |----------|----------|----------|
-| Hyper-V | Hyper-V導入、Windows Server 2022構築 | [Hyper-V構築](./Hyper-V/README.md) |
+| Hyper-V | Hyper-V導入、Windows Server 2022構築 | [Hyper-V導入、Windows Server 2022構築](./Hyper-V/README.md) |
 | Windows Update | KB5122882障害対応、0xc000021A復旧 | [Windows Update](./WindowsUpdate/README.md) |
 | Active Directory | AD構築、OU作成、ユーザー作成 | [Active Directory](./ActiveDirectory/README.md) |
