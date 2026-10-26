@@ -26,7 +26,6 @@ Windows Server 2022の検証環境を構築した記録です。
 
 ## ドキュメント
 
-- Hyper-V構築
-- Windows Server 2022インストール
+- Hyper-V構築 Windows Server 2022インストール
 - Active Directory構築
 - Windows Update
