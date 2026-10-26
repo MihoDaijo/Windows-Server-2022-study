@@ -188,8 +188,6 @@ vegeshop.local
 ユーザー **admin** を作成し、Administrators グループへ追加した。
 
 ```text
-vegeshop.local
-↓
 Users
 ↓
 admin
