@@ -10,7 +10,6 @@ Windows Server 2022の検証環境を構築した記録です。
 - Hyper-V
 - Windows Server 2022
 - Active Directory
-- DHCP
 - Windows Update
 
 ---
