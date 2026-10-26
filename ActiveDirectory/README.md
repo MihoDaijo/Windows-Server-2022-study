@@ -7,17 +7,17 @@ Active Directory を構築し、ユーザーを作成し、組織単位（OU）�
 ## 構成図
 
 ```text
-vegeshop.local
+vegeshop.local👩‍🌾
 │
-├─ Vegetable
-│   ├─ Carrot
-│   ├─ Tomato
-│   └─ Onion
+├─ Vegetable🧑‍🌾
+│   ├─ Carrot🥕
+│   ├─ Tomato🍅
+│   └─ Onion🧅
 │
 └─ Fruit
-    ├─ Apple (Administrators)
-    ├─ Orange
-    └─ Grape
+    ├─ Apple (Administrators)🍎
+    ├─ Orange🍊
+    └─ Grape🍇
 ```
 
 ## 実施内容
