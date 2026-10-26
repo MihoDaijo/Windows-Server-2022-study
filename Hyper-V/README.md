@@ -9,9 +9,9 @@ Windows 11 PCに Hyper-V を導入し、Windows Server 2022 の仮想マシン�
 ## 1. Windows Server 2022 ISOイメージのダウンロード
 
 Microsoft 評価センターの「無料で使用開始 - ISO のダウンロード」から必要事項を入力し、ISOイメージをダウンロードして保存する。
-![画像](Images/Hyper-V/1.png)
-![画像](Images/Hyper-V/2.png)
-![画像](Images/Hyper-V/3.png)
+![画像](../Images/Hyper-V/1.png)
+![画像](../Images/Hyper-V/2.png)
+![画像](../Images/Hyper-V/3.png)
 
 ### 参考
 
@@ -22,7 +22,7 @@ Microsoft 評価センターの「無料で使用開始 - ISO のダウンロー
 ## 2. Hyper-Vの有効化
 
 [ スタート ] ボタンを選択し、[ コントロールパネル ] > [ プログラム ] > [ Windowsの機能の有効化または無効化 ]からHyper-Vを有効化をしパソコンを再起動する。
-![画像](Images/Hyper-V/4.png)
+![画像](../Images/Hyper-V/4.png)
 
 ### 参考
 
@@ -33,28 +33,28 @@ Microsoft 評価センターの「無料で使用開始 - ISO のダウンロー
 ## 3. 仮想マシンの作成
 
 [ Hyper-V マネージャー ] を起動し、左側のウィンドウの[ Hyper-V マネージャー ] サーバーを選択し、右側の[ 操作 ] ウィンドウで [ 新規 ] > [ 仮想マシン ] を選択する。
-![画像](Images/Hyper-V/5.png)
+![画像](../Images/Hyper-V/5.png)
 
 ---
 
 ## 4. 仮想マシンの新規作成ウィザード
 
 仮想マシンの新規作成ウィザードで、[ 次へ ]を選択する。
-![画像](Images/Hyper-V/6.png)
+![画像](../Images/Hyper-V/6.png)
 
 ---
 
 ## 5. 名前と場所の指定
 
 [ 名前と場所の指定 ] ページで、仮想マシンの名前[ Demo2026.10.20 ]を入力し、仮想マシン構成ファイルを格納する場所[ C:\ProgramData\Microsoft\Windows\Hyper-V\（規定値のまま） ]を選択し、 [ 次へ ] を選択する。
-![画像](Images/Hyper-V/7.png)
+![画像](../Images/Hyper-V/7.png)
 
 ---
 
 ## 6. 世代の指定
 
 [ 世代の指定 ] ページで、仮想マシンの世代[ 第 2 世代(2) ] を選択する。 第 1 世代仮想マシンを作成する特定の理由がない限り、第 2 世代仮想マシンを作成し、 [次へ] を選択する。
-![画像](Images/Hyper-V/8.png)
+![画像](../Images/Hyper-V/8.png)
 
 ### 参考
 
@@ -65,7 +65,7 @@ Microsoft 評価センターの「無料で使用開始 - ISO のダウンロー
 ## 7. メモリの割り当て
 
 [ メモリの割り当て ] ページで、起動時に仮想マシンに割り当てるメモリの量[ 4,096 MB（規定値のまま） ] を入力する。 動的メモリを有効にすることもできる。 [ 次へ ] を選択する。
-![画像](Images/Hyper-V/9.png)
+![画像](../Images/Hyper-V/9.png)
 
 ### 参考
 
@@ -76,14 +76,14 @@ Microsoft 評価センターの「無料で使用開始 - ISO のダウンロー
 ## 8. ネットワークの構成
 
 [ ネットワークの構成 ] ページで、接続方法のプルダウンから[ Default Switch ]を選択する。 仮想スイッチを作成していない場合は、この手順をスキップし、後でネットワークを構成できる。 [次へ] を選択する。
-![画像](Images/Hyper-V/10.png)
+![画像](../Images/Hyper-V/10.png)
 
 ---
 
 ## 9. 仮想ハードディスクの作成
 
 [ 仮想ハード ディスクの接続 ] ページで、[ 仮想ハード ディスクを作成する ] - 仮想ハード ディスク の名前を確認し、保存する場所を選択して、そのサイズ[ 40GB ] を指定し、[ 次へ] を選択する。
-![画像](Images/Hyper-V/11.png)
+![画像](../Images/Hyper-V/11.png)
 
 ---
 
@@ -112,19 +112,19 @@ Microsoft 評価センターの「無料で使用開始 - ISO のダウンロー
 ## 10. インストールオプション
 
 [ インストール オプション] ページで、[ 起動可能なイメージ ファイルからオペレーティング システムをインストール する - オペレーティング システムのインストール メディアを含む .iso ファイルの場所を参照します ] を選択し、[ 次へ ] を選択する。
-![画像](Images/Hyper-V/12.png)
+![画像](../Images/Hyper-V/12.png)
 
 ---
 
 ## 11. 概要
 [概要] ページで選択内容を確認したら、[完了] を選択する。
-![画像](Images/Hyper-V/13.png)
+![画像](../Images/Hyper-V/13.png)
 
 ---
 
 ## 12. 構築完了
 [ Hyper-V マネージャー ]にWindowsServerの構築が完了した。
-![画像](Images/Hyper-V/14.png)
+![画像](../Images/Hyper-V/14.png)
 
 ---
 
@@ -135,9 +135,9 @@ Microsoft 評価センターの「無料で使用開始 - ISO のダウンロー
 [ Hyper-V マネージャー ]で [ Windows Server 2022仮想マシン ]が起動できない。
 起動して、接続したところ、次の画面が出て起動しない。
 エラーメッセージ「The boot loader failed」
-![画像](Images/Hyper-V/15.png)
-![画像](Images/Hyper-V/16.png)
-![画像](Images/Hyper-V/17.png)
+![画像](../Images/Hyper-V/15.png)
+![画像](../Images/Hyper-V/16.png)
+![画像](../Images/Hyper-V/17.png)
 
 ---
 
@@ -150,7 +150,7 @@ ISOから起動する際、「Press any key to boot from CD or DVD...」の表�
 ## 解決策
 
 「Press any key to boot from CD or DVD......」の最後の点が6つ出る前に何らかのキーを押す。急いで押す。
-![画像](Images/Hyper-V/18.png)
+![画像](../Images/Hyper-V/18.png)
 
 ---
 
